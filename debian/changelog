@@ -1,3 +1,9 @@
+postgresql-common (145.pgdg12.4+1~0) precise; urgency=low
+
+  * Backport to Ubuntu Precise, version is downgraded to avoid shadowing of apt.postgresql.org
+
+ -- Max Arnold <arnold.maxim@gmail.com>  Sat, 13 Jul 2013 20:15:30 +0700
+
 postgresql-common (145.pgdg12.4+1) precise-pgdg; urgency=low
 
   * Rebuild for precise-pgdg (jenkins-postgresql-common-source-
