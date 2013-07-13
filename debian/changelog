@@ -1,3 +1,9 @@
+postgresql-common (145.pgdg12.4+1~3) precise-pgdg; urgency=low
+
+  * Hardcode 9.1/9.2 postgres versions
+
+ -- Max Arnold <arnold.maxim@gmail.com>  Sun, 14 Jul 2013 00:07:03 +0700
+
 postgresql-common (145.pgdg12.4+1~2) precise-pgdg; urgency=low
 
   * Bump default version to 9.2
