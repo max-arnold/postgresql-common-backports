@@ -1,3 +1,9 @@
+postgresql-common (145.pgdg12.4+1~1) precise-pgdg; urgency=low
+
+  * Add pgdg suffix to fix supported-versions
+
+ -- Max Arnold <arnold.maxim@gmail.com>  Sat, 13 Jul 2013 22:49:23 +0700
+
 postgresql-common (145.pgdg12.4+1~0) precise; urgency=low
 
   * Backport to Ubuntu Precise, version is downgraded to avoid shadowing of apt.postgresql.org
