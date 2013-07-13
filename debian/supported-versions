@@ -32,7 +32,7 @@
 
 set -eu
 
-DEFAULT="9.1"
+DEFAULT="9.2"
 
 # functions
 
