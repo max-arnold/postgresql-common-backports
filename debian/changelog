@@ -1,9 +1,8 @@
 postgresql-common (150.pgdg12.4+1~precise1) precise; urgency=low
 
-  * Hardcode 9.1/9.2 postgres versions
   * Do not depend on pgdg-keyring
 
- -- Max Arnold <arnold.maxim@gmail.com>  Fri, 26 Jul 2013 13:49:45 +0700
+ -- Max Arnold <arnold.maxim@gmail.com>  Tue, 19 Nov 2013 22:42:19 +0700
 
 postgresql-common (150.pgdg12.4+1) precise-pgdg; urgency=low
 
