@@ -1,4 +1,10 @@
-postgresql-common (150.pgdg12.4+1~precise2) precise; urgency=low
+postgresql-common (150.pgdg12.4+0~precise1) precise-pgdg; urgency=low
+
+  * Downgrade package version (apt.postgresql.org has higher priority)
+
+ -- Max Arnold <arnold.maxim@gmail.com>  Tue, 26 Nov 2013 21:48:57 +0700
+
+postgresql-common (150.pgdg12.4+1~precise2) precise-pgdg; urgency=low
 
   * Try to remove 9.0 and 9.2 as supported versions
 
