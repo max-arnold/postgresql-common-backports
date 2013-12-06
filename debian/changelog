@@ -1,9 +1,20 @@
-postgresql-common (150.pgdg12.4+1) precise-pgdg; urgency=low
+postgresql-common (151.pgdg12.4+1) precise-pgdg; urgency=low
 
   * Rebuild for precise-pgdg (jenkins-postgresql-common-source-
-    distribution=precise-90, bzr revision 1391)
+    distribution=precise-94, bzr revision 1395)
 
- -- apt.postgresql.org autobuilder <myon@debian.org>  Mon, 21 Oct 2013 23:23:06 +0200
+ -- apt.postgresql.org autobuilder <myon@debian.org>  Thu, 05 Dec 2013 17:09:31 +0100
+
+postgresql-common (151) unstable; urgency=low
+
+  * pg_createcluster: Create /var/run/postgresql when missing.
+  * pg_virtualenv: Set PG_CONFIG in single version mode.
+  * pg_wrapper: Always use the latest available version of "pg_isready"
+    instead of the target cluster's. pg_isready appeared only in 9.3, but is
+    usable with older versions as well. Suggested by Peter Eisentraut.
+    (Closes: #728599)
+
+ -- Christoph Berg <myon@debian.org>  Thu, 05 Dec 2013 16:32:51 +0100
 
 postgresql-common (150) unstable; urgency=low
 
